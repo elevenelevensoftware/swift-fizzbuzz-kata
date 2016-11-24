@@ -32,4 +32,14 @@ class FizzBuzzKataTests: XCTestCase {
         let result = fizzBuzz.getFizzBuzzOutput(input: 10)
         XCTAssertEqual(result, "buzz")
     }
+    
+    func testGivenMultipleOfBothThreeAndFizeShouldReturnFizzBuzz() {
+        let result = fizzBuzz.getFizzBuzzOutput(input: 15)
+        XCTAssertEqual(result, "fizzbuzz")
+    }
+    
+    func testGivenInputIsNotMultipleOfThreeOrFiveShouldReturnNumberAsString() {
+        let result = fizzBuzz.getFizzBuzzOutput(input: 11)
+        XCTAssertEqual(result, "11")
+    }
 }

@@ -20,7 +20,9 @@ class FizzBuzz {
         
         var result = String(input)
         
-        if(input % multipleValueToGetFizz == 0) {
+        if(input % multipleValueToGetFizz == 0 && input % multipleValueToGetBuzz == 0) {
+            result = fizz + buzz
+        } else if(input % multipleValueToGetFizz == 0) {
             result = fizz
         } else if(input % multipleValueToGetBuzz == 0) {
             result = buzz
