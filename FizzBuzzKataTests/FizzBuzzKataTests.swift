@@ -30,6 +30,6 @@ class FizzBuzzKataTests: XCTestCase {
     
     func testGivenMultiplesOfFiveShouldReturnBuzz() {
         let result = fizzBuzz.getFizzBuzzOutput(input: 10)
-        XCTAssertEqual(result, "fizz")
+        XCTAssertEqual(result, "buzz")
     }
 }
