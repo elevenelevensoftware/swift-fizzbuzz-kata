@@ -13,6 +13,7 @@
 		33C1F6581DE6F7A2007082D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C1F6571DE6F7A2007082D0 /* Assets.xcassets */; };
 		33C1F65B1DE6F7A2007082D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33C1F6591DE6F7A2007082D0 /* LaunchScreen.storyboard */; };
 		33C1F6661DE6F7A2007082D0 /* FizzBuzzKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1F6651DE6F7A2007082D0 /* FizzBuzzKataTests.swift */; };
+		33C1F6711DE6FF30007082D0 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1F6701DE6FF30007082D0 /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		33C1F6611DE6F7A2007082D0 /* FizzBuzzKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C1F6651DE6F7A2007082D0 /* FizzBuzzKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzKataTests.swift; sourceTree = "<group>"; };
 		33C1F6671DE6F7A2007082D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C1F6701DE6FF30007082D0 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FizzBuzz.swift; path = Classes/FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				33C1F6571DE6F7A2007082D0 /* Assets.xcassets */,
 				33C1F6591DE6F7A2007082D0 /* LaunchScreen.storyboard */,
 				33C1F65C1DE6F7A2007082D0 /* Info.plist */,
+				33C1F6701DE6FF30007082D0 /* FizzBuzz.swift */,
 			);
 			path = FizzBuzzKata;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				33C1F6531DE6F7A2007082D0 /* ViewController.swift in Sources */,
 				33C1F6511DE6F7A2007082D0 /* AppDelegate.swift in Sources */,
+				33C1F6711DE6FF30007082D0 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
