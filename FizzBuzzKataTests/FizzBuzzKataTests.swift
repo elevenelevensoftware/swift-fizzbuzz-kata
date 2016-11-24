@@ -24,7 +24,12 @@ class FizzBuzzKataTests: XCTestCase {
     }
     
     func testGivenMultiplesOfThreeShouldReturnFizz() {
-        let result = fizzBuzz.getFizz(input: 9)
+        let result = fizzBuzz.getFizzBuzzOutput(input: 9)
+        XCTAssertEqual(result, "fizz")
+    }
+    
+    func testGivenMultiplesOfFiveShouldReturnBuzz() {
+        let result = fizzBuzz.getFizzBuzzOutput(input: 10)
         XCTAssertEqual(result, "fizz")
     }
 }

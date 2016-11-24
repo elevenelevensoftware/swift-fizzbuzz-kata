@@ -10,7 +10,7 @@ import Foundation
 
 class FizzBuzz {
     
-    func getFizz(input: Int) -> String {
+    func getFizzBuzzOutput(input: Int) -> String {
         
         var result = String(input)
         
